@@ -18,7 +18,7 @@
     };
 
   function checkMenu(lunchMenu){	
-      var menuItems = lunchMenu.split(';');
+      var menuItems = lunchMenu.split(',');
       console.log(menuItems.length);
       switch (menuItems.length) {
         case 1:
